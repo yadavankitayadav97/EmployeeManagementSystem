@@ -48,4 +48,5 @@ app.UseDefaultFiles();
 app.UseStaticFiles();
 app.MapControllers();
 app.UseAuthorization();
+app.MapControllers();
 app.Run();
