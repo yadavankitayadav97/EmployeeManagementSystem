@@ -42,7 +42,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
+// this is use for rediraction
 app.UseHttpsRedirection();
 app.UseDefaultFiles();
 app.UseStaticFiles();
